@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        body{
+            background-color: grey;
+        }
+
+        h1
+        {
+            font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+
+        p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 15px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 006 - Exercício 02</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Código Básico de Programação usado por iniciantes.</p>
+    <script>     
+    var n1 = Number(window.prompt('digite um numero'))// string
+    var n2 = Number(window.prompt('digite outro numero'))// string
+    var s = n1 + n2
+    window.alert(`a soma de ${n1} e ${n2} é igual a ${s}`) // concatenação
+
+    /////// AREA DE NUMEROS //////////////
+    // (number + number) o + pode servir para Adição
+    // (string + string) e também concatenação
+    // Number.parseInt = define uma variavel como Numero inteiro
+    // Number.parseFloat = define uma variavel como numero real
+    // Number(n) = o java script decide se vai ser real ou inteiro;
+
+    ////// AREA DE STRINGS ///////////////
+    // String(n)
+    // n.toString
+
+    //TEMPLATE STRING//
+    // a forma mais simples e recente de usar a placeholder para uma variavel é: ${variavel} ex: `Você tem ${idade} anos`
+    // só é possível o uso com CRASE "  `  "
+
+    //Formatando Strings
+    /* EXEMPLO:
+    var s = 'javascript'
+        'Eu estou aprendendo s' - não usa interpolação
+        'Eu estou aprendendo ' +s - usa interpolação
+        `Eu estou aprendendo ${s}` - usa Template String
+    
+        FORMATANDO STRINGS 2.0
+        EXEMPLO:
+    
+        s.lengt - quantos caracteres tem a string
+        s.toUpperCase() - tudo para 'Maiusculas'
+        s.toLowerCase() - tudo para 'Minusculas'
+     */ 
+    </script>
+</body>
+</html>
